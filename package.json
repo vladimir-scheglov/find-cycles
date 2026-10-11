@@ -1,0 +1,29 @@
+{
+  "name": "domain-cycle-detector",
+  "version": "1.0.0",
+  "description": "Find cyclic dependencies between domains in .ro YAML files",
+  "main": "find-cycles.js",
+  "scripts": {
+    "start": "node find-cycles.js",
+    "find": "node find-cycles.js",
+    "cycles": "node find-cycles.js",
+    "json": "node find-cycles.js --json",
+    "help": "node find-cycles.js --help"
+  },
+  "keywords": [
+    "domain",
+    "cycles",
+    "dependencies",
+    "yaml",
+    "fqid",
+    "circular-dependencies"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
